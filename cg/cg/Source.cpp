@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <assert.h>
 
@@ -7,10 +7,10 @@ using namespace std;
 
 // GLEW
 //#define GLEW_STATIC -- se habilitar, nao precisa da dll
-#include <GL/glew.h>
+#include <GL\glew.h>
 
 // GLFW
-#include <GLFW/glfw3.h>
+#include <GLFW\glfw3.h>
 
 // Function prototypes
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
@@ -107,6 +107,47 @@ int main()
 
 	GLuint VBO, VAO;
 
+
+
+	// desenhando triangulo
+	GLfloat vertices[] = {
+		0.0f,0.5f,0.0f,
+		0.5f, -0.5f,0.0f,
+		-0.5f, -0.5f,0.0f
+	};	GLfloat colors[] = {
+		1.0f, 0.5f, 0.0f,
+		0.0f, 1.0f, 0.0f,
+		0.0f, 0.0f, 1.0f
+	};
+	GLuint vVBO;
+	glGenBuffers(1, &vVBO);
+	glBindBuffer(GL_ARRAY_BUFFER, vVBO);
+	glBufferData(GL_ARRAY_BUFFER, 9 * sizeof(GLfloat),
+		vertices, GL_STATIC_DRAW);	GLuint cVBO;
+	glGenBuffers(1, &cVBO);
+	glBindBuffer(GL_ARRAY_BUFFER, cVBO);
+	glBufferData(GL_ARRAY_BUFFER, 9 * sizeof(GLfloat),
+		colors, GL_STATIC_DRAW);
+	glGenVertexArrays(1, &VAO);
+	glBindVertexArray(VAO);
+
+	//incluindo o buffer de vértices
+	glBindBuffer(GL_ARRAY_BUFFER, vVBO);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 *
+		sizeof(GLfloat), NULL);
+	glEnableVertexAttribArray(0);
+
+	//incluindo o buffer de cores
+	glBindBuffer(GL_ARRAY_BUFFER, cVBO);
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 3
+		* sizeof(GLfloat), NULL);
+	glEnableVertexAttribArray(1);
+	//fim do desenho
+
+
+
+
+
 	// Game loop
 	while (!glfwWindowShouldClose(window))
 	{
@@ -141,4 +182,3 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
 	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, GL_TRUE);
 }
-

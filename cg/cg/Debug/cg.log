@@ -1,0 +1,14 @@
+﻿  Source.cpp
+glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(context.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(init.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(input.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(monitor.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(window.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(win32_init.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(win32_monitor.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(win32_time.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(win32_tls.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(win32_window.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(winmm_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(winmm_joystick.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(wgl_context.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+  cg.vcxproj -> D:\computacao grafica\cg\Debug\cg.exe

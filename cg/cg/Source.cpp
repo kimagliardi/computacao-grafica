@@ -114,20 +114,25 @@ int main()
 		0.0f,0.5f,0.0f,
 		0.5f, -0.5f,0.0f,
 		-0.5f, -0.5f,0.0f
-	};	GLfloat colors[] = {
+	};
+	GLfloat colors[] = {
 		1.0f, 0.5f, 0.0f,
 		0.0f, 1.0f, 0.0f,
 		0.0f, 0.0f, 1.0f
-	};
+	};
+
 	GLuint vVBO;
 	glGenBuffers(1, &vVBO);
 	glBindBuffer(GL_ARRAY_BUFFER, vVBO);
 	glBufferData(GL_ARRAY_BUFFER, 9 * sizeof(GLfloat),
-		vertices, GL_STATIC_DRAW);	GLuint cVBO;
+		vertices, GL_STATIC_DRAW);
+
+	GLuint cVBO;
 	glGenBuffers(1, &cVBO);
 	glBindBuffer(GL_ARRAY_BUFFER, cVBO);
 	glBufferData(GL_ARRAY_BUFFER, 9 * sizeof(GLfloat),
-		colors, GL_STATIC_DRAW);
+		colors, GL_STATIC_DRAW);
+
 	glGenVertexArrays(1, &VAO);
 	glBindVertexArray(VAO);
 
@@ -164,6 +169,7 @@ int main()
 		glBindVertexArray(VAO);
 		glDrawArrays(GL_TRIANGLES, 0, 3);
 		glBindVertexArray(0);
+		glBindVertexArray(1);
 
 		// Swap the screen buffers
 		glfwSwapBuffers(window);

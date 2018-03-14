@@ -1,15 +1,17 @@
 ﻿  Source.cpp
-c:\users\kagliardi\documents\github\computacao-grafica\cg\cg\source.cpp(212): warning C4305: 'initializing': truncation from 'double' to 'float'
-glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_tls.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(winmm_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(winmm_joystick.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\glfw.pdb'; linking object as if no debug info
-  cg.vcxproj -> C:\Users\KAGLIARDI\Documents\GitHub\computacao-grafica\cg\Debug\cg.exe
+d:\computacao grafica\cg\cg\shader.h(54): warning C4101: 'infoLog': variável local não referenciada
+d:\computacao grafica\cg\cg\shader.h(53): warning C4101: 'success': variável local não referenciada
+d:\computacao grafica\cg\cg\source.cpp(202): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(context.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(init.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(input.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(monitor.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(window.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(win32_init.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(win32_monitor.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(win32_time.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(win32_tls.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(win32_window.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(winmm_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(winmm_joystick.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' nÒo foi encontrado 'glfw3.lib(wgl_context.obj)' ou no 'D:\computacao grafica\cg\Debug\glfw.pdb'; vinculando objeto quando quando sem nenhuma informaþÒo de depuraþÒo
+  cg.vcxproj -> D:\computacao grafica\cg\Debug\cg.exe

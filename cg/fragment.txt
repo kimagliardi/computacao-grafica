@@ -1,0 +1,7 @@
+"#version 330\n"
+"uniform vec4 inputColor;\n"
+"out vec4 color;\n"
+"void main()\n"
+"{\n"
+"color = inputColor;\n"
+"}\n\0";

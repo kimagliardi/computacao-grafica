@@ -19,4 +19,17 @@
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vertex.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+    <Text Include="fragment.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
